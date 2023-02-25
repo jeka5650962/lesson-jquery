@@ -1,3 +1,3 @@
 $(document).ready(() => {
-    $('.mainText h2').fadeOut(1500).fadeIn(1500)
+    $('.mainText').slideUp(1500).slideDown(1500)
 })
