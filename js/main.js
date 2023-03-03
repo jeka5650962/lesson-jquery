@@ -1,3 +1,8 @@
 $(document).ready(() => {
-    $('.mainText').slideUp(1500).slideDown(1500)
+    function addAttribute(element, attribute, value) {
+        const getElement = '.' + element
+        $(getElement).attr(attribute, value)
+    }
+
+    addAttribute('logo', 'title', 'Daisy')
 })
