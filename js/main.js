@@ -1,4 +1,6 @@
 $(document).ready(() => {
-    $('menu').addClass('border')
-    $('section.receive > div').removeClass('icons')
+    $('.mainText h2').css({
+        'font-size': '70px',
+        'color': 'red'
+    })
 })
