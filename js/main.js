@@ -1,6 +1,7 @@
 $(document).ready(() => {
-    $('.mainText h2').animate({
-        'font-size': '70px',
-        'color': 'red'
-    }, 2000)
+    $('.mainText')
+        .before('<span>Перед</span>')
+        .after('<span>После</span>')
+        .prepend('<span>Prepend</span>')
+        .append('<span>Append</span>')
 })
