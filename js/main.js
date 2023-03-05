@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.logo').click(function () {
-        alert('Событие click')
+    $('.logo').mousemove(function () {
+        alert('Событие mousemove')
     })
 })
